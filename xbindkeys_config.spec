@@ -21,7 +21,8 @@ Prosty program do konfiguracji programu xbindkeys.
 %setup -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc} %{rpmcflags} -Wall"
 
 %install
 rm -rf $RPM_BUILD_ROOT
