@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.netchampagne.com/xbindkeys_config/%{name}-%{version}.tar.gz
+# Source0-md5:	5510dee714677a3c478a50293e7c1ed1
 URL:		http://www.netchampagne.com/xbindkeys_config/
 BuildRequires:	gtk+-devel
 Requires:	xbindkeys
