@@ -6,16 +6,16 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.netchampagne.com/xbindkeys_config/%{name}-%{version}.tar.gz
-URL:		http://www.netchampagne.com/xbindkeys_config
+URL:		http://www.netchampagne.com/xbindkeys_config/
 BuildRequires:	gtk+-devel
 Requires:	xbindkeys
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-An easy to use gtk program for configuring xbindkeys
+An easy to use gtk program for configuring xbindkeys.
 
 %description -l pl
-Prosty program do konfiguracji programu xbindkeys
+Prosty program do konfiguracji programu xbindkeys.
 
 %prep
 %setup -q
@@ -25,8 +25,7 @@ Prosty program do konfiguracji programu xbindkeys
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-install -d $RPM_BUILD_ROOT%{_bindir}/
+install -d $RPM_BUILD_ROOT%{_bindir}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
