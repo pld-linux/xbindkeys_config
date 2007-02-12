@@ -1,5 +1,5 @@
 Summary:	An easy to use GTK+ program for configuring xbindkeys
-Summary(pl):	Prosty program do konfiguracji programu xbindkeys
+Summary(pl.UTF-8):   Prosty program do konfiguracji programu xbindkeys
 Name:		xbindkeys_config
 Version:	0.1.3
 Release:	1
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 An easy to use GTK+ program for configuring xbindkeys.
 
-%description -l pl
+%description -l pl.UTF-8
 Prosty program do konfiguracji programu xbindkeys.
 
 %prep
