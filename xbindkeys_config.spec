@@ -5,9 +5,11 @@ Version:	0.1.3
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
+# dead domain
 Source0:	http://www.netchampagne.com/xbindkeys_config/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	c8983fd822e66c9f9bfbe5e99044a203
-URL:		http://www.netchampagne.com/xbindkeys_config/
+#URL:		http://www.netchampagne.com/xbindkeys_config/
 BuildRequires:	gtk+-devel
 Requires:	xbindkeys
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
